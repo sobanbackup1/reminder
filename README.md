@@ -15,8 +15,17 @@ with your Bark key. The key should look like:
 `https://api.day.app/yourkey/`
 
 **Step 4**
-Test the script by running:
-`python3 yourfile.py`
+Before running the script, create a virtual environment and install the required libraries:
+
+```
+pip install requests schedule
+```
+
+Then test the script by running:
+
+```
+python3 yourfile.py
+```
 
 **PS:**
 This script can be used with `crontab -e` to send notifications at a specific time.
